@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6c2440a8b6.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_responsive.css">
+    <title>Contact page</title>
+</head>
+<body>
+    <nav>
+      <!-- Navbar -->
+        <h1 class="nav-name" style="color: rgb(61, 26, 107)">Umida</h1>
+        <ul class="navigation">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="project.html" class="nav-link">Projects</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+      <!-- Contact me section -->
+      <section class="contact" id="contact">
+        <h2>Contact me</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form>
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+             
+              <button 
+                type="submit"
+                
+                id="submit-btn"
+                class="submit-btn">Submit</button>
+           
+            </form>
+            <div id="validation" class="validation">
+              <h2 style="font-size: 11px;">Prove that you are not robot!</h2>
+              <h3 id="answer_bot"></h3>
+              <div class="inner-wrapper">
+                <h1 id="num_1" class="number1">7</h1>
+                <h1>*</h1>
+                <h1 id="num_2" class="number2">9</h1>
+              </div>
+              <input type="number" name="" id="input_num">
+              <button id="btn_answer">Submit</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <p class="footer_title">Umida Ismoilova</p>
+      
+        <div class="footer-social">
+          <a href="#" class="footer_icons"><i class='bx bxl-facebook-circle' ></i></a>
+          <a href="#" class="footer_icons"><i class='bx bxl-instagram' ></i></a>
+          <a href="#" class="footer_icons"><i class='bx bxl-github' ></i></a>
+          <a href="#" class="footer_icons"><i class='bx bxl-telegram' ></i></a>
+        </div>
+        <p>&#169; 2021 copyright all right reserved</p>
+      </footer>
+      <script src="app.js"></script>
+      <script src="app2.js"></script>
+</body>
+</html>

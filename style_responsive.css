@@ -1,0 +1,312 @@
+html {
+	font-size: 10px;
+}
+
+@media only screen and (max-width:1024px) {
+	html {
+		font-size: 9.411764705882353px;
+	}
+}
+@media only screen and (max-width:768px) {
+	html {
+		font-size: 10px;
+	}
+}
+@media only screen and (max-width:400px) {
+	html {
+		font-size: 9.411764705882353px;
+	}
+}
+
+
+@media screen and (max-width: 720px) {
+    .burger-menu {
+        display:contents;
+      }
+    
+      nav ul.show {
+        transform: translateX(0);
+      }
+
+      nav ul {
+        position: fixed;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        top: 86px;
+        left: 10%;
+        width: 80%;
+        text-align: center;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+      }
+    
+       nav ul li {
+        margin: 8px;
+      }
+
+      nav {
+        padding: 1.5rem 1rem;
+      }
+   
+@media screen and (max-width:1024px) {
+      .intro-content {
+        margin-left: -18px;
+        margin-right: -18px;
+      }  
+    }
+    
+@media screen and (max-width:768px) {
+      .intro-content {
+        width: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    
+      .intro-content {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: -15px;
+        margin-right: -15px;
+      }
+  }
+
+@media screen and (max-width: 720px) {
+    nav {
+      padding: 1.5rem 1rem;
+    }
+    nav ul {
+      position: fixed;
+      background-color: var(--bg-color);
+      flex-direction: column;
+      top: 86px;
+      left: 10%;
+      width: 80%;
+      text-align: center;
+      transform: translateX(120%);
+      transition: transform 0.5s ease-in;
+    }
+  
+     nav ul li {
+      margin: 8px;
+    }
+
+    .hero {
+      margin-top: -4rem;
+      flex-direction: column;
+      gap: 0;
+    }
+  
+
+    .bio {
+      margin-top: -7rem;
+      width: 20.5rem;
+      font-size: 15px;
+    }
+
+    .icon {
+      width:90px;
+      height:90px;
+    }
+
+    .section-title{
+      font-size: 30px !important;
+      margin-top: 50px;
+    }
+
+    .projects-container {
+      flex-direction: column;
+    }
+  
+    .project-container {
+      width: 280px !important;
+    }
+}
+@media only screen and (max-width:1024px) {
+      .intro-content h1 {
+        font-size: 7.6rem;
+      }
+      .intro-social {
+        font-size: 3rem;
+      }
+      .intro-social li {
+        margin: 0 15px;
+      }
+}
+@media only screen and (max-width:768px) {
+      #intro {
+        min-height: 660px;
+      }
+      .intro-content h1 {
+        font-size: 5.2rem;
+      }
+      .intro-content h5 {
+        font-size: 1.8rem;
+      }
+      .intro-content .intro-position {
+        font-size: 1.3rem;
+      }
+      .intro-social {
+        font-size: 2.5rem;
+      }
+      .intro-social li {
+        margin: 0 10px;
+      }
+
+
+      .profile{
+        display:flex;
+        width: 100% !important;
+
+        flex-direction: column;
+        justify-content: center !important;
+        padding: 0 !important;
+      }
+      
+      .info1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center !important;
+      }
+      
+      .more-about{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+      }
+      
+      .border{
+        margin:18px auto;
+        border: none !important;
+        font-size: 16px !important;
+      }
+      
+      .information-1{
+        width: 90%;
+        margin:  auto;
+        padding: 15px;
+      }
+      
+      .bio{
+        width: 85% !important;
+        margin: 15px auto;
+      }
+      
+      .hero-img{
+        border-radius: 15px !important;
+        width: 82% !important;
+        margin-top: 12% !important;
+      }
+
+}
+@media only screen and (max-width:600px) {
+      #intro {
+        min-height: 600px;
+      }
+      .intro-content h1 {
+        font-size: 4.6rem;
+        margin-bottom: .6rem;
+      }
+      .intro-content h5 {
+        font-size: 1.5rem;
+        margin-bottom: .3rem;
+        letter-spacing: .2rem;
+      }
+      .intro-content .intro-position {
+        font-size: 1.2rem;
+      }
+      .intro-content .intro-position span {
+        padding: 0 .6rem;
+      }
+
+      .intro-social {
+        font-size: 2.4rem;
+      } }}
+
+
+.aboutme-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+
+
+.profile{
+  display:flex;
+    flex-direction: column;
+  justify-content: center !important;
+  padding: 0 !important;
+  font-size:20px !important;
+  margin:auto !important;
+}
+
+.info1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center !important;
+}
+
+.more-about{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.border{
+  margin:18px auto;
+  border: none !important;
+  font-size: 25px;
+}
+
+.information-1{
+  width: 90%;
+  margin:  auto;
+  padding: 15px;
+}
+
+.bio{
+  width: 85% !important;
+  margin: 15px auto;
+}
+
+.hero-img{
+  border-radius: 15px !important;
+  width: 82% !important;
+  margin-top: 5% !important;
+}
+
+.nav-link{
+  font-size: 18px !important;
+}
+
+.nav-name{
+  font-size: 25px !important;
+}
+
+
+.skills{
+  width: 90% !important;
+  margin:auto;
+}
+
+.section-title{
+  font-size: 30px !important;
+  margin-top: 50px;
+}
+
+.section-subtitle{
+  font-size: 20px !important;
+}
+
+.card-wrapper{
+  width: 90% !important;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,  minmax(300px, 1fr));
+  justify-items: center;
+  grid-gap: 15px;
+  padding:25px;
+}
